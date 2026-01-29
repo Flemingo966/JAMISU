@@ -3,19 +3,28 @@
 @theme {
   --font-primary: var(--font-primary);
   --font-secondary: var(--font-secondary);
-  --color-white: #f9fbfc;
-  --color-white-secondary: #d6d6d6;
-  --color-blue: #0b1f74;
-  --color-yellow: #ffc533;
-  --color-green: #09272c;
-  --color-green-secondary: #0d373f;
-  --color-gray: #5D5D5D;
-  --color-background-gray: #F5F5F5;
-  --color-orange-tag: rgba(255, 105, 0, 0.16);
-  --color-border-light: rgba(9, 39, 44, 0.15);
+
+  /* Base Colors */
+  --color-white: #FFFFFF;               /* Main Background */
+  --color-white-secondary: #F4F4F4;     /* Light Gray Background */
+
+  /* Brand Colors */
+  --color-blue: #1F4FD8;                /* Primary / Headline */
+  --color-red: #E53935;                 /* CTA / Highlight Banner */
+  --color-green: #2E7D32;               /* Growth / Positive */
+  --color-yellow: #FBC02D;              /* Idea / Highlight */
+
+  /* Neutral Colors */
+  --color-gray: #2E2E2E;                /* Dark Gray / Text */
+  --color-background-gray: #F4F4F4;     /* Light Gray */
+
+  /* Utility Colors */
+  --color-orange-tag: rgba(251, 192, 45, 0.25); /* Yellow-based tag */
+  --color-border-light: rgba(46, 46, 46, 0.15);
+
+  /* Typography */
   --text-15: 15px;
   --text-15-line-height: 110%;
-
 }
 
 html {
@@ -39,15 +48,16 @@ h6 {
 }
 
 label {
-  @apply block
-}
-input, textarea {
-  @apply border border-gray/30 px-2.5 py-1.5 rounded-sm outline-none block w-full
+  @apply block;
 }
 
-@media (max-width : 768px) {
+input,
+textarea {
+  @apply border border-gray/30 px-2.5 py-1.5 rounded-sm outline-none block w-full;
+}
+
+@media (max-width: 768px) {
   .container {
-
     width: 100%;
   }
 }
@@ -66,15 +76,9 @@ input, textarea {
 }
 
 .entities .embla__slide {
-
   flex: 0 0 200px;
 }
 
 p {
   line-height: 130%;
 }
-
-/* 
-p {
-  color: #0d373f;
-} */

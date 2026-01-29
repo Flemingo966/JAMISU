@@ -2,9 +2,11 @@
 
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import FutureWaveLogo from "@/assets/brand-logos/future-wave.svg";
-import IgnitiveLogo from "@/assets/brand-logos/ignitive.svg";
-import AkrtitLogo from "@/assets/brand-logos/Akriti.svg";
+import OracleNetsuiteLogo from "@/assets/brand-logos/Oracle Netsuite.svg";
+import MicrosoftDynamic365Logo from "@/assets/brand-logos/Microsoft Dynamic 365.svg";
+import Salesforce from "@/assets/brand-logos/Salesforce.svg";
+import SAP from "@/assets/brand-logos/SAP.svg";
+import Zoho from "@/assets/brand-logos/Zoho.svg";
 import AutoScroll from "embla-carousel-auto-scroll";
 import LeftGradient from "@/assets/left-gradient.png";
 import RightGradient from "@/assets/right-gradient.png";
@@ -22,7 +24,7 @@ const Carousel = () => {
 
   return (
     <section className="container entities py-14 relative">
-      <h3 className="text-2xl font-semibold mb-12 text-center">Our <span className="text-yellow">Partners</span></h3>
+      <h3 className="text-2xl font-semibold mb-12 text-center">Our <span className="text-yellow"> Services </span></h3>
       <Image className="absolute left-0 bottom-0 z-10" src={LeftGradient} alt="" width={80} height={204} />
       <Image className="absolute right-0 bottom-0 z-10" src={RightGradient} alt="" width={80} height={204} />
       <div className="embla relative" ref={emblaRef}>
@@ -31,79 +33,90 @@ const Carousel = () => {
 
           <div className="embla__slide w-44">
             <figure>
-              <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
+              <Image src={OracleNetsuiteLogo } alt="Oracle Netsuite logo" width={130} />
             </figure>
           </div>
           <div className="embla__slide w-44">
             <figure>
-              <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
-            </figure>
-          </div>
-
-          <div className="embla__slide w-44">
-            <figure>
-              <Image src={AkrtitLogo} alt="Akriti Sky Morphs " width={130} />
-            </figure>
-          </div>
-          <div className="embla__slide w-44">
-            <figure>
-              <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
+              <Image src={MicrosoftDynamic365Logo} alt="Microsoft Dynamic365 Logo" width={160} />
             </figure>
           </div>
 
           <div className="embla__slide w-44">
             <figure>
-              <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
+              <Image src={Salesforce} alt="Salesforce " width={130} />
             </figure>
           </div>
-
-           <div className="embla__slide w-44">
+          <div className="embla__slide w-44">
             <figure>
-              <Image src={AkrtitLogo} alt="Akriti Sky Morphs " width={130} />
+              <Image src={SAP } alt="SAP" width={160} />
             </figure>
           </div>
 
           <div className="embla__slide w-44">
             <figure>
-              <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
+              <Image src={Zoho} alt="Zoho" width={130} />
             </figure>
           </div>
 
-          <div className="embla__slide w-44">
-            <figure>
-              <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
-            </figure>
-          </div>
-
-           <div className="embla__slide w-44">
-            <figure>
-              <Image src={AkrtitLogo} alt="Akriti Sky Morphs " width={130} />
-            </figure>
-          </div>
-
-          <div className="embla__slide w-44">
-            <figure>
-              <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
-            </figure>
-          </div>
-
-          <div className="embla__slide w-44">
-            <figure>
-              <Image src={FutureWaveLogo} alt="future wave infra solution" width={130} />
-            </figure>
-          </div>
-
-           <div className="embla__slide w-44">
-            <figure>
-              <Image src={AkrtitLogo} alt="Akriti Sky Morphs " width={130} />
-            </figure>
-          </div>
           
           <div className="embla__slide w-44">
             <figure>
-              <Image src={IgnitiveLogo} alt="ignitive software labs" width={160} />
+              <Image src={OracleNetsuiteLogo } alt="Oracle Netsuite logo" width={130} />
             </figure>
           </div>
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={MicrosoftDynamic365Logo} alt="Microsoft Dynamic365 Logo" width={160} />
+            </figure>
+          </div>
+
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={Salesforce} alt="Salesforce " width={130} />
+            </figure>
+          </div>
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={SAP } alt="SAP" width={160} />
+            </figure>
+          </div>
+
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={Zoho} alt="Zoho" width={130} />
+            </figure>
+          </div>
+
+        <div className="embla__slide w-44">
+            <figure>
+              <Image src={OracleNetsuiteLogo } alt="Oracle Netsuite logo" width={130} />
+            </figure>
+          </div>
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={MicrosoftDynamic365Logo} alt="Microsoft Dynamic365 Logo" width={160} />
+            </figure>
+          </div>
+
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={Salesforce} alt="Salesforce " width={130} />
+            </figure>
+          </div>
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={SAP } alt="SAP" width={160} />
+            </figure>
+          </div>
+
+          <div className="embla__slide w-44">
+            <figure>
+              <Image src={Zoho} alt="Zoho" width={130} />
+            </figure>
+          </div>
+
+         
         </div>
       </div>
 

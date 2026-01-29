@@ -26,29 +26,23 @@ const About = () => {
         <div>
           <div className="space-y-6 text-sm text-gray-600">
             <p className="font-bold">
-              Jamisu Tech, a proud member , excels in  empowering  businesses
-              with cutting-edge solutions. Our expertise lies in ERP implementation and consulting, enabling organizations
-              to streamline operations through intelligent automation and bespoke ERP strategies.  Beyond ERP, we offer a
-              comprehensive suite of IT services, including software development, cloud solutions, cybersecurity, IT
-              consulting, and much more.
+             AtiSunya Infotech is a trusted digital transformation partner delivering enterprise-grade ERP and technology solutions across Oracle NetSuite, Zoho, Salesforce, Microsoft Dynamics 365, SAP, and the complete Microsoft ecosystem. We help organizations optimize operations, enhance visibility, automate processes, and scale with confidence through intelligent, secure, and future-ready solutions.
             </p>
 
             <p className="font-bold">
-              At Jamisu Tech, we specialize in delivering tailored NetSuite ERP solutions to streamline
-              your business processes and boost your productivity. With years of expertise, our certified professionals
-              provide end-to-end NetSuite services that drive growth and innovation.
+              At AtiSunya Infotech, we deliver tailored Oracle NetSuite and Microsoft-based solutions designed to optimize business processes and enhance productivity. Backed by deep expertise, our certified teams provide end-to-end services that enable scalable growth, operational efficiency, and continuous innovation.
             </p>
 
             <p className="font-bold">
-              Helping companies buy, implement and get ROI from NetSuite (and products that integrate with NetSuite) is what we do.
+              We help companies buy, implement, and maximize ROI from NetSuite and its integrated solutions, while also leveraging our expertise in Microsoft Services.
             </p>
 
             <h4 className="text-xl">
-              But enough talking about us. Let&apos;s talk about&nbsp;you.
+              But let&apos;s shift the focus from us. Let&apos;s talk about&nbsp;you.
             </h4>
 
             <div className="w-max">
-              <ButtonLink href="mailto:sales@flemingoservices.com" variant="blue">
+              <ButtonLink href="mailto: mktg@atisunyainfotech.com" variant="blue">
                 Say Hey
               </ButtonLink>
             </div>

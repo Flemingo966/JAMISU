@@ -36,7 +36,7 @@ const ContactUsPage = () => {
                 📧
               </span>
               <Link href="mailto:sales@jamisu.com" className="hover:underline">
-                sales@jamisu.com
+               mktg@atisunyainfotech.com
               </Link>
             </p>
             <p className="space-x-3">
@@ -44,7 +44,7 @@ const ContactUsPage = () => {
                 📧
               </span>
               <Link href="mailto:pmo@jamisu.com" className="hover:underline">
-                pmo@jamisu.com
+                info@atisunya.co
               </Link>
             </p>
 
@@ -64,11 +64,11 @@ const ContactUsPage = () => {
               width={40} height={40}
             />
             <p className="text-15">
-              JAMISU Tech Pvt.Ltd.Labs., 203, plot No 53,
+              AtiSunya Infotech Pvt Ltd -A-522 , Tower-A ,
               <br />
-              Above Destiny Cafe, Near Medanta Hospital,
+              Logix Technova, Plot No. 04 , Block A , Sec-132 Noida - 201309 ,
               <br />
-              Vijaynagar, Indore (M.P)
+              Sec-132 Noida - 201309 (Uttar Pradesh)
               <br />
               INDIA
             </p>
@@ -93,9 +93,9 @@ const ContactUsPage = () => {
 
        </div>
 
-      {/* <div className="w-full h-[390px] md:h-[500px] mt-10 rounded-md overflow-hidden">
-        <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.4567917445474!2d75.8978558!3d22.748423199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963029b6938d575%3A0x64668708c2606553!2sIgnitive%20Software%20Labs!5e0!3m2!1sen!2sin!4v1758636172509!5m2!1sen!2sin" width="600" height="450" allowFullScreen loading="lazy"></iframe>
-      </div>  */}
+      { <div className="w-full h-[390px] md:h-[500px] mt-10 rounded-md overflow-hidden">
+        <iframe className="w-full h-full" src="https://www.google.com/maps/place/AtiSunya+Private+Limited/@28.4968172,77.4069876,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce928dd54fc73:0x531361528b9b0680!8m2!3d28.4968125!4d77.4095625!16s%2Fg%2F11t6g4_746?entry=ttu&g_ep=EgoyMDI2MDEyNi4wIKXMDSoASAFQAw%3D%3D" width="600" height="450" allowFullScreen loading="lazy"></iframe>
+      </div>  }
 
     </section>
   </>

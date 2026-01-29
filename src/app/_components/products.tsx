@@ -7,11 +7,11 @@ import Image from "next/image";
 
 const Products = () => {
   const data = [
-    { text: "JAMISU ERP One", icon: ERPIcon, link: "https://jamisuerp.jamisu.com/" },
-    { text: "JAMISU Hour Flux", icon: TimestampIcon, link: "https://apphourflux.jamisu.com/" },
-    { text: "JAMISU Vendor WMS", icon: WarehouseIcon, link: "https://app.jamisu.com/" },
+    { text: "JAMISU ERP One", icon: ERPIcon, link: "#" },
+    { text: "JAMISU Hour Flux", icon: TimestampIcon, link: "#" },
+    { text: "JAMISU Vendor WMS", icon: WarehouseIcon, link: "#" },
     { text: "JAMISU Warehouse Management", icon: RentalIcon, link: "#" },
-    { text: "Chatbot / AI", icon: ChatbotIcon, link: "https://aiflo.app/" },
+    { text: "Chatbot / AI", icon: ChatbotIcon, link: "#" },
   ];
 
   return (

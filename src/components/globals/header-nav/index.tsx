@@ -15,14 +15,14 @@ const Navbar = () => {
         <Link
           href="/"
           className="flex items-center gap-2 h-20"
-          aria-label="Go to Jamisu"
+          aria-label="Go to AtiSunya"
         >
           {/* Main Logo + Subtext */}
           <div className="flex flex-col items-start justify-center w-44 h-auto relative">
             <div className="relative w-full h-26">
               <Image
                 src={NavLogo}
-                alt="Jamisu Tech logo"
+                alt="AtiSunya Infotech logo"
                 fill
                 className="object-contain"
               />
@@ -35,7 +35,7 @@ const Navbar = () => {
           <NavItem label="Services" href="#services" />
           <NavItem label="Solutions" href="#solutions" />
           <NavItem label="Products" href="#products" />
-          <NavItem label="Say Hey" href="mailto:sales@jamisu.com" />
+          <NavItem label="Say Hey" href="mailto:mktg@atisunyainfotech.com" />
           <div>
             <Link href={"/contact-us"} className="text-blue text-sm font-semibold px-4 py-2 border-b border-transparent hover:border-yellow">
               Book a call

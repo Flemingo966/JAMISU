@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import oracleIcon from "@/assets/services-icons/oracle.jpg";
+import MicrosoftIcon from "@/assets/services-icons/microsoft-dynamic.jpg";
 import ZohoIcon from "@/assets/services-icons/zoho.png";
 import CeligoIcon from "@/assets/services-icons/celigo.png";
-import MicrosoftIcon from "@/assets/services-icons/microsoft-dynamic.jpg";
 import SalesforceIcon from "@/assets/services-icons/salesforce.png";
-import oracleIcon from "@/assets/services-icons/oracle.jpg";
 
 
 
@@ -51,13 +51,13 @@ const Footer = () => {
             <div className="flex items-start gap-2">
               <span className="text-yellow text-lg mt-1"></span>
               <div className="flex flex-col gap-y-3">
-                <a href="tel:+919975549318" className="hover:underline"> 📞 +91 9975549318 </a>
+                {/* <a href="tel:+919975549318" className="hover:underline"> 📞 +91 9975549318 </a> */}
                  <a href="tel:+919975549318" className="hover:underline">📞 +91 9021023513 </a>
                 <Link href="mailto:sales@jamisu.com" className="text-sm text-white hover:underline">
-                  📧 sales@jamisu.com
+                  📧 mktg@atisunyainfotech.com
                 </Link>
                 <Link href="mailto:pmo@jamisu.com " className="text-sm text-white hover:underline">
-                  📧 pmo@jamisu.com
+                  📧 info@atisunya.co
                 </Link>
               </div>
             </div>
@@ -70,15 +70,15 @@ const Footer = () => {
         {/* Address */}
         <div className="grid lg:grid-cols-2 gap-x-6 gap-y-4">
           <div className="text-sm text-white/90 max-w-xs">
-            <h5 className="text-yellow text-xl mb-2">📍 Indore</h5>
+            <h5 className="text-yellow text-xl mb-2">📍Noida </h5>
             <p>
-              203, plot No
-              53, 
+              AtiSunya Pvt Ltd 
               <br />
-              Above Destiny
-              Cafe, Near Medanta
-              Hospital, Vijaynagar,
-              Indore (M.P)
+              A-522 , Tower-A,
+              Logix Technova,
+              Plot No. 04- Block A,
+              Sec-132 Noida - 201309
+              Uttar Pradesh
               <br />
               INDIA
             </p>
@@ -100,13 +100,13 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="flex gap-4">
-          <Link href="https://www.instagram.com/jamisutech/?hl=en">
+          <Link href="https://www.instagram.com/atisunyainfotech/?next=%2Fthe_abolis%2F">
             <Image src="/Instgram.jpg" alt="Instagram" width={40} height={40} className="rounded-full hover:opacity-80" />
           </Link>
-          <Link href="mailto:sales@flemingoservices.com">
+          <Link href="mailto: mktg@atisunyainfotech.com">
             <Image src="/Gmail.png" alt="Email" width={40} height={40} className="rounded-full hover:opacity-80" />
           </Link>
-          { <Link href="https://www.linkedin.com/company/jamisu-tech-labs-pvt-ltd/posts/?feedView=all">
+          { <Link href="https://www.linkedin.com/company/atisunya-infotech-private-limited/?viewAsMember=true">
             <Image src="/Linkedln.png" alt="LinkedIn" width={40} height={40} className="rounded-full hover:opacity-80" />
           </Link> }
           <Link href="https://wa.me/+91 9021023513">
@@ -117,7 +117,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <p className="text-center text-sm text-white mt-10 container">
-        &copy; 2025 All rights reserved. Jamisu Tech Pvt. Ltd. labs 
+        &copy; 2024 All rights reserved. AtiSunya Infotech Pvt Ltd  
       </p>
     </footer>
   );

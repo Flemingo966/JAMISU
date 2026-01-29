@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
 const WordAnimation = () => {
-  const words = ["Salesforce", "Microsoft Dynamic 365", "ERP Suite", "Oracle NetSuite"];
+  const words = ["Salesforce", "Microsoft Dynamic 365", "ERP Suite", "Oracle NetSuite" , "Zoho" , "SAP"];
   const containerRef = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {

@@ -23,7 +23,7 @@ const Initiatives = () => {
             />
 
             <div className='max-md:text-15 text-gray space-y-2'>
-              <p>JAMISU Tech actively supports the Government of India&apos;s Artificial Intelligence initiatives by promoting responsible, scalable, and inclusive AI solutions.
+              <p>AtiSunya Infotech actively supports the Government of India&apos;s Artificial Intelligence initiatives by promoting responsible, scalable, and inclusive AI solutions.
               </p>
               <p>
                 Through innovation, skill development, and public-private collaboration, we help transform government visions into real-world impact. Our mission is to fuel India&apos;s smart transformation with ethical and accessible AI for all.
@@ -60,7 +60,7 @@ const Initiatives = () => {
             />
 
             <div className='max-md:text-15 text-gray space-y-2'>
-              <p>JAMISU Tech stands with the Government of India&apos;s &apos;No to Drugs&apos; initiative, promoting awareness and a healthy, drug-free lifestyle among youth and communities.
+              <p>AtiSunya Infotech stands with the Government of India&apos;s &apos;No to Drugs&apos; initiative, promoting awareness and a healthy, drug-free lifestyle among youth and communities.
               </p>
               <p>
                 Through digital campaigns and educational outreach, we spread the message of positivity, wellness, and self-empowerment. Our goal is to inspire a stronger, drug-free India for future generations.

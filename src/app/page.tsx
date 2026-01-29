@@ -14,8 +14,8 @@ import Initiatives from "./_components/initiatives";
 
 
 export const metadata: Metadata = {
-  title: 'Jamisu Tech',
-  description: 'At Jamisu Tech, we specialize in delivering tailored NetSuite ERP solutions to streamline your business processes and boost your productivity.',
+  title: 'AtiSunya Infotech Pvt Ltd ',
+  description: 'AtiSunya Infotech delivers end-to-end ERP and digital transformation services across Oracle NetSuite, Zoho, Salesforce, Microsoft Dynamics 365, SAP, and the complete Microsoft ecosystem—helping businesses scale smarter and faster.',
 }
 
 export default function Home() {

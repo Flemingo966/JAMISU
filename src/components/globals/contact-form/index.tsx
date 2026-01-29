@@ -95,15 +95,15 @@ const ContactForm = () => {
             Submit
           </button>
 
-          {/* JAMISU App Button */}
-          <Link
-            href="https://app.jamisu.com/"
+          {/* AtiSunya App Button */}
+          {/* <Link
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green px-4 py-1.5 text-white rounded-sm cursor-pointer hover:opacity-80 transition"
           >
-            JAMISU App
-          </Link>
+            AtiSunya App
+          </Link > */}
         </div>
       </form>
     </div>
