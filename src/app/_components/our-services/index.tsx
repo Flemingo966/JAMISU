@@ -9,7 +9,7 @@ import Link from "next/link";
 
 
 const OurServices = () => {
-  const cardClass = `relative min-h-72 md:min-h-[500px] rounded-sm overflow-hidden p-4 flex flex-col h-full justify-between ${styles.serviceCard}`
+  const cardClass = `relative min-h-30 md:min-h-[300px] rounded-sm overflow-hidden p-4 flex flex-col h-full justify-between ${styles.serviceCard}`
   return (
     <section id="services" className="py-20">
       <div className="container">
@@ -28,7 +28,7 @@ const OurServices = () => {
               Expert ERP implementation across Microsoft Dynamics 365, Salesforce, Zoho, and Oracle NetSuite is provided by Jamisu Tech. For businesses to succeed in the cutthroat digital age of today, we guarantee smooth integration, data migration, and tailored solutions that optimize processes, boost output, and spur company expansion
             </p>
 
-            <Image src={ERPImplementationImage} layout="fill" alt="erp implemenation" className="object-cover -z-10 transition" />
+            <Image src={ERPImplementationImage} layout="fill" alt="erp implemenation" className="object-cover -z-20 transition" />
 
             <PlusIcon />
 
@@ -41,7 +41,7 @@ const OurServices = () => {
             <p className="text-white px-2 py-3 min-h-72 text-lg transition duration-400 bg-yellow">
               Oracle NetSuite, Salesforce, Zoho, and Microsoft Dynamics 365 can all be seamlessly integrated with your current systems using Jamisu Tech. Our professional methodology guarantees seamless data flow, increased productivity, and real-time insights, enabling companies to attain operational excellence and make more informed decisions.
             </p>
-            <Image src={ERPIntegrationImage} layout="fill" alt="erp implemenation" className="object-cover -z-10 transition" />
+            <Image src={ERPIntegrationImage} layout="fill" alt="erp implemenation" className="object-cover -z-20 transition" />
 
             <PlusIcon />
 
@@ -51,9 +51,9 @@ const OurServices = () => {
           <article className={cardClass}>
             <h4 className="font-semibold text-4xl">Managed <br /> Services</h4>
             <p className="text-white px-2 py-3 min-h-72 text-lg transition duration-400 bg-yellow">
-              Jamisu Tech offers all-inclusive Managed Services to maintain optimal performance for your ERP systems, including Microsoft Dynamics 365, Salesforce, Zoho, and Oracle NetSuite. From proactive maintenance and monitoring to system optimization and user assistance, we make sure your company runs smoothly and maintains its lead in a changing market.
+              AtiSunya Infotech offers all-inclusive Managed Services to maintain optimal performance for your ERP systems, including Microsoft Dynamics 365, Salesforce, Zoho, and Oracle NetSuite. From proactive maintenance and monitoring to system optimization and user assistance, we make sure your company runs smoothly and maintains its lead in a changing market.
             </p>
-            <Image src={ManagedServicesImage} layout="fill" alt="erp implemenation" className="object-cover -z-10 transition" />
+            <Image src={ManagedServicesImage} layout="fill" alt="erp implemenation" className="object-cover -z-20 transition" />
 
             <PlusIcon />
           </article>

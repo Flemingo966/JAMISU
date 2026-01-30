@@ -3,7 +3,7 @@ import { NavItem } from "./nav-item";
 import { MobileNavItem } from "./mobile-nav-item";
 import { MobileNavbar } from "./mobile-navbar";
 import Image from "next/image";
-import NavLogo from "@/assets/brand-logos/nav-logo.jpeg";
+import NavLogo from "@/assets/brand-logos/nav-logo.png";
 import DownloadBrochureBtn from "./download-brochure-btn";
 
 const Navbar = () => {
