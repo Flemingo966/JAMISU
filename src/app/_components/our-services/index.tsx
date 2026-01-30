@@ -28,7 +28,7 @@ const OurServices = () => {
               Expert ERP implementation across Microsoft Dynamics 365, Salesforce, Zoho, and Oracle NetSuite is provided by Jamisu Tech. For businesses to succeed in the cutthroat digital age of today, we guarantee smooth integration, data migration, and tailored solutions that optimize processes, boost output, and spur company expansion
             </p>
 
-            <Image src={ERPImplementationImage} layout="fill" alt="erp implemenation" className="object-cover -z-20 transition" />
+            <Image src={ERPImplementationImage} layout="fill" alt="erp implemenation" className="object-cover -z-10 transition" />
 
             <PlusIcon />
 

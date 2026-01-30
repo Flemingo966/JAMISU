@@ -51,7 +51,7 @@ const Navbar = () => {
               <MobileNavItem label="Services" href="#services" />
               <MobileNavItem label="Solutions" href="#solutions" />
               <MobileNavItem label="Products" href="#products" />
-              <MobileNavItem label="Say Hey" href="mailto:sales@jamisu.com" />
+              <MobileNavItem label="Say Hey" href="mailto:mktg@atisunyainfotech.com" />
               <MobileNavItem label="Book a call" href="/contact-us" />
               <div className="mt-3">
                 <DownloadBrochureBtn />
